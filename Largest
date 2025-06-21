@@ -1,0 +1,22 @@
+//1. Find the Largest of three numbers 
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("enter num: ");
+        int a= sc.nextInt();
+        System.out.print("enter num: ");
+        int b=sc.nextInt();
+        System.out.print("enter num: ");
+        int c=sc.nextInt();
+        if(a>b && a>c){
+            System.out.println("Largest  numer:"+a);
+        }
+        else if (b>c && b>a){
+            System.out.println("Largest  numer:"+b);
+        }
+        else{
+            System.out.println("Largest  numer:"+c);
+        }
+    }
+}
